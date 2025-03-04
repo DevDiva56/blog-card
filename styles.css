@@ -44,9 +44,9 @@ body {
     overflow: hidden; /* Keeps rounded corners if desired */
 }
 
-.card img {
+.card-image {
     width: 100%; /* Make sure image stretches only to the padded width */
-    height: 120px;
+    height: 180px;
     object-fit: cover;
     display: block;
     border-radius: 8px;
@@ -75,7 +75,7 @@ body {
 
 /* Title */
 .card-title {
-    color: #black;
+    color: black;
     margin: 8px 0;
     font-size: 18px;
 }
